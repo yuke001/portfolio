@@ -52,7 +52,9 @@ function Skills() {
                 <SkillList src={checkMarkIcon} skill="Visual Studio Code (VS Code)" />
             </div>
 
+            <br /> <br /> <br />
         </section>
+        
     );
 }
 

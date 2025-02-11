@@ -3,6 +3,8 @@ import Hero from './sections/Hero/Hero';
 import './App.css'
 import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
+import Contact from './sections/Contact/Contact';
+import Footer from './sections/Footer/Footer';
 
 const App = () => {
   console.log('test');
@@ -12,8 +14,9 @@ const App = () => {
     <div>
       <Hero></Hero>
       <Projects></Projects>
-      <br /> <br /> <br />
       <Skills></Skills>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   )
 }

@@ -13,13 +13,13 @@ import CV from '../../assets/cv.pdf'
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
-    const {theme, toggleTheme} = useTheme() ; 
+    const { theme, toggleTheme } = useTheme();
 
-    
-  const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+
+    const themeIcon = theme === 'light' ? sun : moon;
+    const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+    const githubIcon = theme === 'light' ? githubLight : githubDark;
+    const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
 
     return (
@@ -53,8 +53,8 @@ function Hero() {
                         <img src={linkedinIcon} alt="Linkedin Icon" />
                     </a>
                 </span>
-                <p className={styles.description}>
-                    With a passion for developing modern web apps for commercial
+                <p >
+                    With a passion for developing modern web apps <br /> for commercial
                     businesses
                 </p>
                 <a href={CV} download>

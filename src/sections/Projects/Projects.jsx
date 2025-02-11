@@ -35,6 +35,7 @@ function Projects() {
           p="Ecommerce Website - MERN"
         />
       </div>
+      <br /> <br /> <br />
     </section>
   );
 }
